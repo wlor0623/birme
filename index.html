@@ -117,11 +117,11 @@
             <div>
               <label for="quality_preset_select">质量预设: </label>
               <select type="select" name="quality_preset_select" id="quality_preset" onchange="config.update(this)">
-                <option value="disabled">Disabled</option>
-                <option value="low">Low</option>
-                <option value="medium">Medium</option>
-                <option value="high" selected>High</option>
-                <option value="hermite">Hermite</option>
+                <option value="disabled" selected>不压缩</option>
+                <option value="low">低质量</option>
+                <option value="medium">中等质量</option>
+                <option value="high" >高质量</option>
+                <option value="hermite">Hermite算法</option>
               </select>
             </div>
           </div>
