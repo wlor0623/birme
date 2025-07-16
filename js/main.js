@@ -89,8 +89,8 @@ class BFile {
 }
 
 const default_parameters = {
-  target_width: 1200,
-  target_height: 1200,
+  target_width: 512,
+  target_height: 512,
   no_resize: false,
   auto_width: false,
   auto_height: false,
